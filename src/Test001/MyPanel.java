@@ -35,7 +35,7 @@ public class MyPanel extends Panel implements Runnable,KeyListener{
 				g.setFont(new Font("TimesRoman", Font.PLAIN, 20)); //设置字体，大小
 				//1.出现的元素，2.元素的x轴，3.元素的y轴
 				g.drawString(new Character(c[i]).toString().toUpperCase(),x[i],y[i]);
-			}
+			}   
 			//显示积分在屏幕上
 			g.setColor(Color.red);
 			g.setFont(new Font("TimesRoman", Font.PLAIN, 20)); 
